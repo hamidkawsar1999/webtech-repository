@@ -17,11 +17,11 @@ session_start();
 
 if (isset($_SESSION['uname'])) {
 
-	echo "<h2>Welcome Fahmida</h2>";
+	echo "<h2>Welcome </h2>";
 
 
 	echo "<br><a href='Dashboard.php'>Back to dashboard</a>";
-	echo "<br><a href='index.php'>Logged in as Fahmida</a>";
+	echo "<br><a href='index.php'>Logged in as kawsar</a>";
 	echo "<br><a href='index.php'>Logout</a>";
 
 }
